@@ -5,3 +5,25 @@ Steps to add a file to the repository
     then "git commit -m "message to be displayed" 
     then "git push origin <branch: main>"
     
+Steps to pull any changes made in the repo online:
+    "git pull" this will pull all the new changes made in the repo
+
+
+Steps to make a local folder a git repository:
+    create the folder u want make into a git repo
+    use "git init" to add the git folder (hidden)
+    now create all the files u want to inside the folder as usuall
+    then use "git add ." to add all the changes to the git
+    then use "git commit -m 'message to be displayed'"
+
+    in your github account online create a repository with same name
+    then "git remote add origin <repo link>" to connect to the repo online 
+
+    Now there is no branch in the repo so u need to change that
+    always u start with the master branch u can directly push into master by "git push origin master"
+    or u can change the name of the branch to main by "git branch -M main"
+
+
+Steps to change branches :
+    git checkout <branchname>
+    
