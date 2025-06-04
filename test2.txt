@@ -1,1 +1,7 @@
 giggty goo
+Steps to add a file to the repository
+    create the file u want to add 
+    then "git add <filename>" to add this file to staging area
+    then "git commit -m "message to be displayed" 
+    then "git push origin <branch: main>"
+    
